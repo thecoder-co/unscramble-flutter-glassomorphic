@@ -164,7 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       'Unscramble',
                       style: TextStyle(color: Colors.black, fontSize: 25),
                     ),
-                    elevation: 5,
+                    elevation: 0,
                   ),
                 ),
               ),
@@ -188,6 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     selectedItemColor: Colors.black,
                     onTap: _onItemTapped,
                     currentIndex: _selectedIndex,
+                    elevation: 0,
                     items: [
                       BottomNavigationBarItem(
                         icon: Icon(Icons.search),
@@ -244,7 +245,7 @@ class _OptionOne extends StatelessWidget {
             child: Container(
               height: 300,
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.2),
+                color: Colors.white.withOpacity(0.4),
                 borderRadius: BorderRadius.circular(16.0),
               ),
               child: Center(
@@ -361,7 +362,7 @@ class _OptionTwo extends StatelessWidget {
                   child: Container(
                     height: foundWords3.length == 0 ? 75 : 300,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     child: Padding(
@@ -444,7 +445,7 @@ class _OptionTwo extends StatelessWidget {
                   child: Container(
                     height: foundWords4.length == 0 ? 75 : 300,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     child: Padding(
@@ -527,7 +528,7 @@ class _OptionTwo extends StatelessWidget {
                   child: Container(
                     height: foundWords5.length == 0 ? 75 : 300,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     child: Padding(
@@ -611,7 +612,7 @@ class _OptionTwo extends StatelessWidget {
                   child: Container(
                     height: foundWords6.length == 0 ? 75 : 300,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     child: Padding(
@@ -694,7 +695,7 @@ class _OptionTwo extends StatelessWidget {
                   child: Container(
                     height: foundWords7.length == 0 ? 75 : 300,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     child: Padding(
@@ -777,7 +778,7 @@ class _OptionTwo extends StatelessWidget {
                   child: Container(
                     height: foundWords.length == 0 ? 75 : 300,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(16.0),
                     ),
                     child: Padding(
